@@ -17,19 +17,32 @@
   </head>
 
   <body>
-    <main class="container">
 
-      <div id="content">
-        {% block content %}
-        {% endblock %}
-      </div>
+    
 
-      <div id="sidebar">
-        <h2>My blog</h2>
-        <p>This is my blog.</p>
-      </div>
+      <header>
+        <nav class="navbar navbar-light bg-light">
+          <div class="container container--narrow">
+            <a class="navbar-brand" href="#">
+              MINIMAL BLOG
+            </a>
+          </div>
+        </nav>
+      </header>
+      
+      <main class="container">
 
-    </main>
+        <div id="content">
+          {% block content %}
+          {% endblock %}
+        </div>
+
+        <div id="sidebar">
+          <h2>My blog</h2>
+          <p>This is my blog.</p>
+        </div>
+
+      </main>
 
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
