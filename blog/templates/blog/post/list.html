@@ -33,6 +33,8 @@
       Published {{ post.publish }} by {{ post.author }}
     </p>
     {{ post.body|markdown|truncatewords_html:30 }}
+    <br>
+    <hr>
   {% endfor %}
 
   {% include "pagination.html" with page=posts %}
