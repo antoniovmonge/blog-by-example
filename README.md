@@ -5,3 +5,4 @@
 - Send Emails directly from Django (share by email)
 - Tagging functionality
 - Retrieve objects by similarity
+- Search engine (PostgreSQL)
